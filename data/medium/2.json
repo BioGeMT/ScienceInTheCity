@@ -1,0 +1,15 @@
+{
+  "name": "E3 ubiquitin-protein ligase HERC2",
+  "gene": "HERC2",
+  "structure": "2KEO",
+  "function_summary": "The HERC2 gene encodes a 527 kDa E3 ubiquitin protein ligase enzyme that has key roles in cell cycle regulation, spindle formation during mitosis, mitochondrial functions and DNA damage responses.",
+  "function_description": [
+    "The chance of getting blue eyes is known to be dependent on variants present in the HERC2 and OCA2 genes.",
+    "If there are no variants in any of the 2 genes, the P-protein that is encoded by the OCA2 gene is produced correctly and in enough amounts for it to be used in melanin production leading to a brown eye phenotype.",
+    "If there is a variant in HERC2 (transcription binding site for OCA2), transcription of the OCA2 gene is inhibited and no or minimum amounts of the P-protein is produced, which leads to no to reduced production in the eye, leading to a blue eyed phenotype.",
+    "The Blue eyed phenotype is produced as well when there is a variant in the OCA2 gene.  A variant in the OCA2 gene may result in a P protein that is not formed correctly and the p-protein cannot be used properly in melanin production."
+  ],
+  "sequence": "MPSESFCLAAQARLDSKWLKTDI",
+  "function_citation": "Elpidorou, M. et al. (2020) ‘Novel loss-of-function mutation in herc2 is associated with severe developmental delay and paediatric lethality’, Journal of Medical Genetics, 58(5), pp. 334–341. doi:10.1136/jmedgenet-2020-106873.",
+  "structure_citation": "Created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) through the PDB ID 2KEO used in RCSB-PDB (H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.)"
+}

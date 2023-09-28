@@ -1,0 +1,14 @@
+{
+  "name": "Angiotensin-converting enzyme 2",
+  "gene": "ACE2",
+  "structure": "1R42",
+  "function_summary": "",
+  "function_description": [
+    "The ACE2 gene provides instructions for making a protein called angiotensin-coverting enzyme 2.  The ACE2 protein can be found on the cell membrane of a diverse range of cells in the body.",
+    "ACE2 has been identified as the primary receptor for the binding of SARS-CoV-2 virus which causes Coronavirus Disease (COVID-19).",
+    "The inhibition, or modification of ACE2 is considered one of the prominent strategies for the treatment of COVID-19."
+  ],
+  "sequence": "MSSSSWLLLSLV",
+  "function_citation": "Patil, S.M. et al. (2022) ‘SARS-COV-2 genome sequencing and promising druggable targets’, Coronavirus Drug Discovery, pp. 3–22. doi:10.1016/b978-0-323-95578-2.00004-2.",
+  "structure_citation": "(Towler, P. et al. (2004) ‘Ace2 X-ray structures reveal a large hinge-bending motion important for inhibitor binding and catalysis’, Journal of Biological Chemistry, 279(17), pp. 17996–18007. doi:10.1074/jbc.m311191200.) created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) through the PDB ID 1R42 used in RCSB-PDB (H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.)"
+}

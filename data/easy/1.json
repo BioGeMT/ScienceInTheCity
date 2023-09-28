@@ -1,0 +1,14 @@
+{
+  "name": "Hemoglobin subunit beta",
+  "gene": "HBB",
+  "structure": "1AJ9",
+  "function_summary": "The HBB gene provides instructions for making a protein called beta-globin. Beta-globin is a component (subunit) of a larger protein called hemoglobin, which is located inside red blood cells.",
+  "function_description": [
+    "In adults, hemoglobin consists of four protein subunits: usually two subunits of beta-globin and two subunits of a protein called alpha-globin, which is produced from another gene called HBA.",
+    "Each of these protein subunits is attached (bound) to an iron-containing molecule called heme; the iron in the center of each heme can bind to one oxygen molecule. Hemoglobin within red blood cells binds to oxygen molecules in the lungs. These cells then travel through the bloodstream and deliver oxygen to tissues throughout the body.",
+    "HBB gene variants that decrease beta-globin production result in a condition called beta- thalassemia."
+  ],
+  "sequence": "MVHFTAEEKAAV",
+  "function_citation": "MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). HBB gene; [updated 2022 Dec 2; cited 2023 Sept 28]. Available from: https://medlineplus.gov/genetics/gene/hbb.",
+  "structure_citation": "(Vásquez, G.B. et al. (1998) ‘Human carboxyhemoglobin at 2.2 Å resolution: Structure and solvent comparisons of R-state, R2-state and T-state Hemoglobins’, Acta Crystallographica Section D Biological Crystallography, 54(3), pp. 355–366. doi:10.1107/s0907444997012250.) created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) through the PDB ID 1AJ9 used in RCSB-PDB (H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.)"
+}

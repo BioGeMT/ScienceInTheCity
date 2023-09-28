@@ -1,0 +1,15 @@
+{
+  "name": "Low-density lipoprotein receptor",
+  "gene": "LDLR",
+  "structure": "1AJJ",
+  "function_summary": "The LDLR gene provides instructions for making a protein called the low-density lipoprotein receptor.",
+  "function_description": [
+    "LDLR receptors are found on the outer surface of various cell types throughout the body.",
+    "Circulating low density lipoproteins (LDL-cholesterol/ “bad” cholesterol) bind to these receptors, and are transported inside the cell. The cholesterol is then used by the cell, stored or removed from the body.",
+    "Variants in this gene that effect the protein’s structure will result in the LDL receptor not being able to bind with cholesterol molecules, hence uptake of cholesterol into the cells will not be possible.",
+    "Familial hypercholesterolemia (FH) is a hereditary condition that affects the metabolism of low-density lipoprotein cholesterol (LDL-C) in the blood. People with FH have variants in the LDLR gene or other genes that regulate LDL-C levels, which leads to abnormally high LDL-C concentrations throughout their lives. This increases the risk of developing cardiovascular diseases such as atherosclerosis, heart attack and stroke."
+  ],
+  "sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQ",
+  "function_citation": "LDLR low density lipoprotein receptor [ Homo sapiens (human) ] (2023) National Library of Medicine. Available at: https://www.ncbi.nlm.nih.gov/gene/3949 (Accessed: 28 September 2023).",
+  "structure_citation": "(Fass, D. et al. (1997) ‘Molecular basis of familial hypercholesterolaemia from structure of LDL receptor module’, Nature, 388(6643), pp. 691–693. doi:10.1038/41798.) created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) through the PDB ID 1AJJ used in RCSB-PDB (H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.)"
+}

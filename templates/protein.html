@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Science In The City</title>
+    <link rel="stylesheet" href="http://localhost:5000/static/index.css">
+    <link rel="stylesheet" href="http://localhost:5000/static/protein.css">
+</head>
+<body>
+
+<div class="flex-column">
+    <h2>{{name}} ({{gene}})</h2>
+
+    <div class="function">
+        <h3>Function</h3>
+        <p class="italic-text">{{function_summary}}</p>
+        <ul>
+            {%- for description_line in function_description %}
+                <li>{{description_line}}</li>
+            {% endfor %}
+        </ul>
+
+        <small>{{function_citation}}</small>
+    </div>
+
+    <div class="structure">
+        <h3>Structure</h3>
+        <iframe height="450" width="100%" src="{{structure}}"></iframe>
+        <small>{{structure_citation}}</small>
+    </div>
+
+    <small style="font-weight:bold;width:90%;margin-top:32px;font-size:16px;">The information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.</small>
+</div>
+
+</body>
+</html>

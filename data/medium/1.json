@@ -1,0 +1,17 @@
+{
+  "name": "P protein",
+  "gene": "OCA2",
+  "structure": "Q04671",
+  "function_summary": "The OCA2 gene (formerly called the P gene) provides instructions for making a protein called the P protein.  This protein is located in melanocytes, which are specialized cells that produce a pigment called melanin.",
+  "function_description": [
+    "Melanin is the substance that gives skin, hair, and eyes their color.",
+    "Melanin is also found in the light-sensitive tissue at the back of the eye (the retina), where it plays a role in normal vision.",
+    "The chance of getting blue eyes is known to be dependent on variants present in the HERC2 and OCA2 genes.",
+    "If there are no variants in any of the 2 genes, the P-protein that is encoded by the OCA2 gene is produced correctly and in enough amounts for it to be used in melanin production leading to a brown eye phenotype.",
+    "If there is a variant in HERC2 (transcription binding site for OCA2), transcription of the OCA2 gene is inhibited and no or minimum amounts of the P-protein is produced, which leads to no to reduced production in the eye, leading to  a blue eyed phenotype.",
+    "The Blue eyed phenotype is produced as well when there is a variant in the OCA2 gene.  A variant in the OCA2 gene may result in a P protein that is not formed correctly and the p-protein cannot be used properly in melanin production."
+  ],
+  "function_citation": "MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). OCA2 gene; [updated 2022 May 13; cited 2023 Sept 28]. Available from: https://medlineplus.gov/genetics/gene/oca2.",
+  "sequence": "MHLEGRDGRRYPGAPAVELLQTS",
+  "structure_citation": "Created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) for the structure denoted by the ID AF-Q04671-F1 within AlphaFold (Jumper, J et al. Highly accurate protein structure prediction with AlphaFold. Nature (2021); Varadi, M et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Research (2021))"
+}

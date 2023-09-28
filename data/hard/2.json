@@ -1,0 +1,15 @@
+{
+  "name": "Insulin receptor",
+  "gene": "INSR",
+  "structure": "1GAG",
+  "function_summary": "The INSR gene provides instructions for making a protein called an insulin receptor, which is found in many types of cells.",
+  "function_description": [
+    "Insulin receptors are embedded in the outer membrane surrounding the cell, where they attach (bind) to the hormone insulin circulating in the bloodstream.",
+    "Insulin plays many roles in the body, including regulating blood glucose levels by controlling how much sugar (in the form of glucose) is passed from the bloodstream into cells to be used as energy.",
+    "Binding of insulin or other ligands to this receptor activates the insulin signaling pathway, which regulates glucose uptake and release, as well as the synthesis and storage of carbohydrates, lipids and protein.",
+    "Variants in this gene underlie the inherited severe insulin resistance syndromes including type A insulin resistance syndrome resulting in elevated levels of glucose in the blood (a key component of type diabetes)."
+  ],
+  "sequence": "MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGE",
+  "function_citation": "MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). INSR gene; [updated 2014 Dec 1; cited 2023 Sept 28]. Available from: https://medlineplus.gov/genetics/gene/insr.",
+  "structure_citation": "(Hubbard, S.R. et al. (2001) ‘Mechanism-based design of a protein kinase inhibitor.’, Nature Structural Biology, 8(1), pp. 37–41. doi:10.1038/83028.) created with Mol* (D. Sehnal, S. Bittrich, M. Deshpande, R. Svobodová, K. Berka, V. Bazgier, S. Velankar, S.K. Burley, J. Koča, A.S. Rose (2021) Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures (2021) Nucleic Acids Research 49:W431-W437 https://doi.org/10.1093/nar/gkab314) through the PDB ID 1GAG used in RCSB-PDB (H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.)"
+}

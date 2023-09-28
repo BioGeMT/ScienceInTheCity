@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Science In The City</title>
+    <link rel="stylesheet" href="http://localhost:5000/static/index.css">
+    <link rel="stylesheet" href="http://localhost:5000/static/play.css">
+    <script type="text/javascript" src="http://localhost:5000/static/play.js"></script>
+</head>
+<body>
+
+<p id="pick-up-text" style="margin-bottom:128px">Pick up <span style="font-weight:bold;text-transform:uppercase">Set {{num}}</span> from the <span style="font-weight:bold;text-transform:uppercase;">{{difficulty}}</span> folders</p>
+
+<div id="start-button-area">
+    <label for="name">Enter your name tag:</label><br>
+    <input style="margin-bottom:0" type="text" id="name" name="name" size="80"><br>
+    <p style="font-style:italic;width:80%;text-align:center;margin-top:0;font-size:32px;">Press enter to start the timer</p>
+    <input type="submit" value="Enter" id="start-button">
+</div>
+
+<div id="play-area">
+    <p id="timer" style="font-size:256px;">00:00</p>
+
+    <input type="hidden" id="guess-value" value="{{sequence}}">
+    <input type="hidden" id="difficulty-value" value="{{difficulty}}">
+
+    <label for="sequence">Enter the protein sequence:</label><br>
+    <input type="text" id="sequence" name="sequence" size="80"><br>
+
+    <input id="guess-button" type="submit" value="Enter">
+
+    <p id="wrong-answer-text">Wrong Answer! Please try again.</p>
+</div>
+
+</body>
+</html>

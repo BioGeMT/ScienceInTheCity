@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Science In The City</title>
+    <link rel="stylesheet" href="http://localhost:5000/static/index.css">
+    <link rel="stylesheet" href="http://localhost:5000/static/leaderboard.css">
+</head>
+<body>
+
+<div class="flex-column leaderboard-container">
+    <div class="leaderboard">
+        <h1>Leaderboard</h1>
+    </div>
+
+
+    <div class="leaderboard">
+        <h2>Easy</h2>
+
+        {% if easy|length == 0 %}
+        <div class="empty-text-container">
+            <p class="empty-leaderboard-text">No attempts.</p>
+        </div>
+        {% endif %}
+
+        {% for easy_person in easy -%}
+        <p>{{loop.index}}. {{easy_person["name"]}} - {{easy_person["text"]}}</p>
+        {% endfor %}
+    </div>
+
+    <div class="leaderboard">
+        <h2>Medium</h2>
+
+        {% if medium|length == 0 %}
+        <div class="empty-text-container">
+            <p class="empty-leaderboard-text">No attempts.</p>
+        </div>
+        {% endif %}
+
+        {% for medium_person in medium -%}
+        <p>{{loop.index}}. {{medium_person["name"]}} - {{medium_person["text"]}}</p>
+        {% endfor %}
+    </div>
+
+    <div class="leaderboard">
+        <h2>Hard</h2>
+
+        {% if hard|length == 0 %}
+        <div class="empty-text-container">
+            <p class="empty-leaderboard-text">No attempts.</p>
+        </div>
+        {% endif %}
+
+        {% for hard_person in hard -%}
+        <p>{{loop.index}}. {{hard_person["name"]}} - {{hard_person["text"]}}</p>
+        {% endfor %}
+    </div>
+
+</div>
+
+</body>
+</html>
