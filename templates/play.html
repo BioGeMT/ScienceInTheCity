@@ -8,7 +8,7 @@
     <script type="text/javascript" src="http://localhost:5000/static/play.js"></script>
 </head>
 <body>
-
+<div id="border"></div>
 <p id="pick-up-text" style="margin-bottom:128px">Pick up <span style="font-weight:bold;text-transform:uppercase">Set {{num}}</span> from the <span style="font-weight:bold;text-transform:uppercase;">{{difficulty}}</span> folders</p>
 
 <div id="start-button-area">
@@ -25,7 +25,7 @@
     <input type="hidden" id="difficulty-value" value="{{difficulty}}">
 
     <label for="sequence">Enter the protein sequence:</label><br>
-    <input type="text" id="sequence" name="sequence" size="80"><br>
+    <input type="text" oninput="this.value = this.value.toUpperCase()" id="sequence" name="sequence" size="80"><br>
 
     <input id="guess-button" type="submit" value="Enter">
 

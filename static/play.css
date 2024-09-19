@@ -59,3 +59,19 @@ input[type=submit]:hover {
   color: red;
   display: none;
 }
+
+ #border {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 10px solid red;
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+            pointer-events: none;
+ }
+
+#border.show {
+            opacity: 1;
+}

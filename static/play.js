@@ -45,6 +45,15 @@ function redirectToProtein() {
             "Content-type": "application/json; charset=UTF-8"
         }
     }).then(() => {
+        console.log("Score posted successfully");
+        // Attempt to reload the leaderboard
+        console.log("Attempting to reload leaderboard");
+        if (window.opener && window.opener.reloadLeaderboard) {
+            console.log("Calling reloadLeaderboard function");
+            window.opener.reloadLeaderboard();
+        } else {
+            console.log("Unable to access reloadLeaderboard function");
+        }
         nameValue = null
         window.location.href = window.location.href.replace("play", "protein");
     });
@@ -53,6 +62,13 @@ function redirectToProtein() {
 function showWrongAnswer() {
     var wrongAnswerTxt = document.getElementById("wrong-answer-text");
     wrongAnswerTxt.style.display = "block";
+                // Show the border
+    border.classList.add('show');
+                // Set a new timeout to hide the border after 0.5 seconds
+    timeoutId = setTimeout(() => {
+                    border.classList.remove('show');
+                    }, 500
+    );
 }
 
 function onGuess() {
